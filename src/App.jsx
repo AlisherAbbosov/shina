@@ -1,19 +1,14 @@
-import React from 'react';
-import Aside from './assets/Components/Aside';
-import Footer from './assets/Components/Footer';
-import Header from './assets/Components/Header/Header'
-import Main from './assets/Components/Main';
-import Section from './assets/Components/Section';
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-      <Aside/>
-      <Main/>
-      <Section/>
-      <Footer/>
-    </div>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 };
 
